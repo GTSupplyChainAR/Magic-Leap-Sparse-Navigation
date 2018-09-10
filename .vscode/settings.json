@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        ".out/": true,
+        "*.package": true,
+        "Library/": true,
+        "Temp/": true
+    }
+}
