@@ -1,0 +1,26 @@
+{
+  "name": "eyeRelativePosition",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fixationX": {
+      "type": "number",
+      "required": true
+    },
+    "fixationY": {
+      "type": "number",
+      "required": true
+    },
+    "fixationZ": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
