@@ -38,5 +38,9 @@
   "eyeRelativePosition": {
     "dataSource": "db",
     "public": true
+  },
+  "userData": {
+    "dataSource": "db",
+    "public": true
   }
 }

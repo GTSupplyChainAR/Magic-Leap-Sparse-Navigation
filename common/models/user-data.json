@@ -1,20 +1,36 @@
 {
-  "name": "eyeRelativePosition",
+  "name": "userData",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "fixationX": {
+    "userId": {
       "type": "number",
       "required": true
     },
-    "fixationY": {
+    "phase": {
       "type": "number",
       "required": true
     },
-    "fixationZ": {
+    "time": {
+      "type": "number",
+      "required": true
+    },
+    "pathId": {
+      "type": "number",
+      "required": true
+    },
+    "bookTag": {
+      "type": "string",
+      "required": true
+    },
+    "device": {
+      "type": "number",
+      "required": true
+    },
+    "viewPosition": {
       "type": "number",
       "required": true
     }
