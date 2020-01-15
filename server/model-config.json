@@ -42,5 +42,9 @@
   "userData": {
     "dataSource": "db",
     "public": true
+  },
+  "devices": {
+    "dataSource": "db",
+    "public": true
   }
 }

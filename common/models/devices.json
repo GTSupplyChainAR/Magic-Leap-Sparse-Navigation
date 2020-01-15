@@ -1,0 +1,32 @@
+{
+  "name": "devices",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userid": {
+      "type": "number"
+    },
+    "phase": {
+      "type": "string"
+    },
+    "time": {
+      "type": "number"
+    },
+    "pathId": {
+      "type": "number"
+    },
+    "booktag": {
+      "type": "string"
+    },
+    "device": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
